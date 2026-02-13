@@ -241,6 +241,14 @@ nav a{
   box-shadow:0 6px 16px rgba(0,0,0,.05);
 }
 
+.contact-card a {
+  display: flex;
+  align-items: flex-start; /* atau center kalau mau sejajar tengah */
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
 .icon{
   width:36px;
   height:36px;
